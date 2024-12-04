@@ -97,7 +97,7 @@ public class PlstformerMoverment : MonoBehaviour
     }
 
 
-    private void OnTriggerExit(Collider other)
+    private void OnTriggerExit2D(Collider other)
     {
         // when the player stops colliding with the platform, disconect the two
         gameObject.transform.parent = null;
